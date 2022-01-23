@@ -1,0 +1,47 @@
+body{
+    width:33%;
+}
+#res{
+    background-color:lightgray;
+    border:solid;
+    height:55px;
+   
+    /* width:98.5%; */
+}
+#res > #result{
+    display:flex;
+    flex: row-fluid;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgray;
+    width:98.5%;
+    height:50px;  
+    font-size:25px;   
+   
+   
+}
+#subtract,#add,#div,#mul{
+    color:rgb(22, 90, 199); 
+}
+#clear{
+    /* background-color:darkgreen ; */
+    color:red;
+}
+#equal{
+    background-color:rgb(66, 133, 244);
+    color:white;
+    font-weight: bold;
+} 
+
+#btns > button {
+    width: 25%; height: 50px; font-size: 20px; margin: 0px; float: left; border:solid black;
+}
+
+#title {
+    margin: 50px;
+    text-align: center;
+}
+#description {
+    margin-left:100px;
+    padding-top: 0px;
+}
